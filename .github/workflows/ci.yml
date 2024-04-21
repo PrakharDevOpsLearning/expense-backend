@@ -1,6 +1,6 @@
 name: Continuous Integration
 on: [push]
 jobs:
-  call-continuous-integration-reusable:
+  call-continuous-integration-reusable-update:
     uses: PrakharDevOpsLearning/github-reusable-workflows/.github/workflows/ci.yml@main
 
